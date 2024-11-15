@@ -1,0 +1,7 @@
+../app_drivers/src/middleware.c:38:6:gpio_init	8	static
+../app_drivers/src/middleware.c:94:6:middleware_variables_input	8	static
+../app_drivers/src/middleware.c:188:6:middleware_variables_output	8	static
+../app_drivers/src/middleware.c:251:6:can_control	8	static
+../app_drivers/src/middleware.c:268:6:flowrate_time	8	static
+../app_drivers/src/middleware.c:288:6:map	24	static
+../app_drivers/src/middleware.c:296:6:gpio_output_test	16	static

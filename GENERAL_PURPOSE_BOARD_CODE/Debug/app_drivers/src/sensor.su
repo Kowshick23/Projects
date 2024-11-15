@@ -1,0 +1,7 @@
+../app_drivers/src/sensor.c:54:6:battery_voltage	8	static
+../app_drivers/src/sensor.c:64:7:mapADCValueToVoltage	32	static
+../app_drivers/src/sensor.c:92:6:temp_Sensor_1	40	static
+../app_drivers/src/sensor.c:106:6:temp_Sensor_2	40	static
+../app_drivers/src/sensor.c:121:6:temp_Sensor_3	40	static
+../app_drivers/src/sensor.c:136:6:adc_control	8	static
+../app_drivers/src/sensor.c:153:6:ACS712_20A	16	static

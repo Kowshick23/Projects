@@ -1,0 +1,212 @@
+
+************************************************************************************
+CAN COMMUNICATION
+
+PD0	CAN_RX	n/a	Alternate Function Push Pull	No pull-up and no pull-down	High	n/a		false
+PD1	CAN_TX	n/a	Alternate Function Push Pull	No pull-up and no pull-down	High	n/a		false
+
+FOR 250KPBS
+PRESCALER = 16
+TIME QUANTA IN BIT SEGMENT 1 = 5
+TIME QUANTA IN BIT SEGMENT 2 = 3
+
+FOR 125KPBS
+PRESCALER = 36
+TIME QUANTA IN BIT SEGMENT 1 = 4
+TIME QUANTA IN BIT SEGMENT 2 = 3
+
+FOR 500KPBS
+PRESCALER = 9
+TIME QUANTA IN BIT SEGMENT 1 = 4
+TIME QUANTA IN BIT SEGMENT 2 = 3
+*************************************************************************************
+GPIO_LED
+
+GPIOB, GPIO_PIN_7   BLUE    PB7
+GPIOB, GPIO_PIN_0   GREEN   PB0
+GPIOB, GPIO_PIN_14  RED		PB14
+
+
+**************************************************************************************
+GPIO_OUTPUTS
+
+PA8		n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true1
+PA9		n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true2
+PA11	n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true3
+PB4		n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true4
+PB5		n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true5
+PB6		n/a	High	Output Open Drain	No pull-up and no pull-down	Low	Disable	true6
+PC7		n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true7
+PC8		n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true8
+PC9		n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true9
+PC10	n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true10
+PC11	n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true11
+PC12	n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true12
+PD2		n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true13
+PD3		n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true14
+PD5		n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true15
+PD6		n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true16
+
+PD7		n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true17
+PD14	n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true18
+PD15	n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true19
+PF6		n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true20
+PF7		n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true21
+PF8		n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true22
+PG1		n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true23
+PG2		n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true24
+PG3		n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true25
+PG4		n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true26
+PG5		n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true27
+PG8		n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true28
+PG9		n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true29
+PG14	n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true30
+PG15	n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true31
+PH2		n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true32
+
+
+PE0		n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true
+PE1		n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true
+PE2		n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true
+PE3		n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true
+PE4		n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true
+PE5		n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true
+PE6		n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true
+PE7		n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true
+PE8		n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true
+PE9		n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true
+PE10	n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true
+PE11	n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true
+PE12	n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true
+PE13	n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true
+PE14	n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true
+PE15	n/a	High	Output Open Drain	No pull-up and no pull-down	Low	n/a		true
+
+**************************************************************************************
+GPIO_INPUTS
+
+PA4		n/a	n/a	Input mode	No pull-up and no pull-down	n/a	n/a		false
+PA5		n/a	n/a	Input mode	No pull-up and no pull-down	n/a	n/a		false
+PA6		n/a	n/a	Input mode	No pull-up and no pull-down	n/a	n/a		false
+PA7		n/a	n/a	Input mode	No pull-up and no pull-down	n/a	n/a		false
+PA10	n/a	n/a	Input mode	No pull-up and no pull-down	n/a	n/a		false
+PA12	n/a	n/a	Input mode	No pull-up and no pull-down	n/a	n/a		false
+PA15	n/a	n/a	Input mode	No pull-up and no pull-down	n/a	n/a		false
+PB1		n/a	n/a	Input mode	No pull-up and no pull-down	n/a	n/a		false
+PB2		n/a	n/a	Input mode	No pull-up and no pull-down	n/a	n/a		false
+PB8		n/a	n/a	Input mode	No pull-up and no pull-down	n/a	n/a		false
+PB9		n/a	n/a	Input mode	No pull-up and no pull-down	n/a	n/a		false
+PB10	n/a	n/a	Input mode	No pull-up and no pull-down	n/a	n/a		false
+PB11	n/a	n/a	Input mode	No pull-up and no pull-down	n/a	n/a		false
+PB12	n/a	n/a	Input mode	No pull-up and no pull-down	n/a	n/a		false
+PB13	n/a	n/a	Input mode	No pull-up and no pull-down	n/a	n/a		false
+PB15	n/a	n/a	Input mode	No pull-up and no pull-down	n/a	n/a		false
+PC4		n/a	n/a	Input mode	No pull-up and no pull-down	n/a	n/a		false
+PC5		n/a	n/a	Input mode	No pull-up and no pull-down	n/a	n/a		false
+PC6		n/a	n/a	Input mode	No pull-up and no pull-down	n/a	n/a		false
+PD4		n/a	n/a	Input mode	No pull-up and no pull-down	n/a	n/a		false
+PD10	n/a	n/a	Input mode	No pull-up and no pull-down	n/a	n/a		false
+PD11	n/a	n/a	Input mode	No pull-up and no pull-down	n/a	n/a		false
+PD12	n/a	n/a	Input mode	No pull-up and no pull-down	n/a	n/a		false
+PD13	n/a	n/a	Input mode	No pull-up and no pull-down	n/a	n/a		false
+PF3		n/a	n/a	Input mode	No pull-up and no pull-down	n/a	n/a		false
+PF5		n/a	n/a	Input mode	No pull-up and no pull-down	n/a	n/a		false
+PF9		n/a	n/a	Input mode	No pull-up and no pull-down	n/a	n/a		false
+PF10	n/a	n/a	Input mode	No pull-up and no pull-down	n/a	n/a		false
+PF11	n/a	n/a	Input mode	No pull-up and no pull-down	n/a	n/a		false
+PF12	n/a	n/a	Input mode	Pull-down	n/a	n/a		true
+PF13	n/a	n/a	Input mode	No pull-up and no pull-down	n/a	n/a		false
+PF14	n/a	n/a	Input mode	No pull-up and no pull-down	n/a	n/a		false
+PF15	n/a	n/a	Input mode	No pull-up and no pull-down	n/a	n/a		false
+PG0		n/a	n/a	Input mode	No pull-up and no pull-down	n/a	n/a		false
+PG10	n/a	n/a	Input mode	No pull-up and no pull-down	n/a	n/a		false
+PG11	n/a	n/a	Input mode	No pull-up and no pull-down	n/a	n/a		false
+PG12	n/a	n/a	Input mode	No pull-up and no pull-down	n/a	n/a		false
+PG13	n/a	n/a	Input mode	No pull-up and no pull-down	n/a	n/a		false
+PH0		n/a	n/a	Input mode	No pull-up and no pull-down	n/a	n/a		false
+PH1		n/a	n/a	Input mode	No pull-up and no pull-down	n/a	n/a		false
+
+
+***************************************************************************************
+ANALOG 
+
+PA0	ADC1_IN1	n/a	Analog mode	No pull-up and no pull-down	n/a	n/a		false
+PA1	ADC1_IN2	n/a	Analog mode	No pull-up and no pull-down	n/a	n/a		false
+PA2	ADC1_IN3	n/a	Analog mode	No pull-up and no pull-down	n/a	n/a		false
+PA3	ADC1_IN4	n/a	Analog mode	No pull-up and no pull-down	n/a	n/a		false
+PF4	ADC1_IN5	n/a	Analog mode	No pull-up and no pull-down	n/a	n/a		false
+PC0	ADC1_IN6	n/a	Analog mode	No pull-up and no pull-down	n/a	n/a		false
+PC1	ADC1_IN7	n/a	Analog mode	No pull-up and no pull-down	n/a	n/a		false
+PC2	ADC1_IN8	n/a	Analog mode	No pull-up and no pull-down	n/a	n/a		false
+PC3	ADC1_IN9	n/a	Analog mode	No pull-up and no pull-down	n/a	n/a		false
+PF2	ADC1_IN10	n/a	Analog mode	No pull-up and no pull-down	n/a	n/a		false
+0-3.3v calibration
+
+0.060v-9
+0.100v-58
+0.150v-121
+0.200v-181
+0.250v-246
+0.300v-306
+0.350v-370
+0.400v-431
+0.450v-495
+0.500v-556
+0.550v-620
+0.600v-681
+0.650v-745
+0.700v-806
+0.750v-870
+0.800v-937
+0.850v-995
+0.900v-1056
+0.950v-1120
+1.000v-1181
+1.050v-1245
+1.100v-1306
+1.150v-1370
+1.200v-1430
+1.250v-1494
+1.300v-1554
+1.350v-1619
+1.400v-1680
+1.450v-1744
+1.500v-1804
+1.550v-1869
+1.600v-1930
+1.650v-1995
+1.700v-2054
+1.750v-2120
+1.800v-2179
+1.850v-2245
+1.900v-2304
+1.950v-2369
+2.000v-2428
+2.050v-2493
+2.100v-2555
+2.150v-2619
+2.200v-2678
+2.250v-2743
+2.300v-2803
+2.350v-2869
+2.400v-2928
+2.450v-2994
+2.500v-3053
+2.550v-3119
+2.600v-3178
+2.650v-3244
+2.700v-3303
+2.750v-3369
+2.800v-3428
+2.850v-3494
+2.900v-3552
+2.950v-3618
+3.000v-3680
+3.050v-3743
+3.100v-3805
+3.150v-3867
+3.200v-3930
+3.250v-3992
+3.300v-4055
+3.33v-4092
+------------------------------------------------------------------------------------------------------------------

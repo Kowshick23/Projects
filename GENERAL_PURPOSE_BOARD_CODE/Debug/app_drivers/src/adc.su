@@ -1,0 +1,2 @@
+../app_drivers/src/adc.c:10:9:adc_init	8	static
+../app_drivers/src/adc.c:16:9:adc_conversion_1	40	static

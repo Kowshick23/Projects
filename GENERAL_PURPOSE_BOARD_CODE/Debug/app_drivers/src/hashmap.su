@@ -1,0 +1,6 @@
+../app_drivers/src/hashmap.c:11:9:hashmap_data_allocate	24	static
+../app_drivers/src/hashmap.c:35:9:hashmap_print	32	static
+../app_drivers/src/hashmap.c:76:9:hashmap_builder	40	static
+../app_drivers/src/hashmap.c:131:9:hashmap_init	16	static
+../app_drivers/src/hashmap.c:146:9:hashmap_query	40	static
+../app_drivers/src/hashmap.c:172:9:hashmap_delete	32	static

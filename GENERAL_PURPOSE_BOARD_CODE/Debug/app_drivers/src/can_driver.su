@@ -1,0 +1,7 @@
+../app_drivers/src/can_driver.c:36:9:can_main_init	16	static
+../app_drivers/src/can_driver.c:61:9:can_1_init	56	static
+../app_drivers/src/can_driver.c:94:9:can_quick_packer	24	static
+../app_drivers/src/can_driver.c:116:9:can_quick_unpacker	24	static
+../app_drivers/src/can_driver.c:135:9:can_send_data	104	static
+../app_drivers/src/can_driver.c:182:9:can_receive_processing	24	static
+../app_drivers/src/can_driver.c:215:9:can_receive_data_can_1	16	static

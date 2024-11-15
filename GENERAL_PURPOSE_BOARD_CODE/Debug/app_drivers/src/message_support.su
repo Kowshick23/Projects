@@ -1,0 +1,3 @@
+../app_drivers/src/message_support.c:16:9:message_unpacker	56	static
+../app_drivers/src/message_support.c:228:9:message_packer	48	static
+../app_drivers/src/message_support.c:463:9:message_unpacker_lin	56	static
